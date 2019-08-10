@@ -1,0 +1,227 @@
+body {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+.top-links {
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header {
+    color: white;
+    background: rgb(32, 101, 136);
+    height: 500px;
+    width: 100%;
+    background-image: url("images/city-scape.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#search {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.search-logo {
+    float: left;
+    width: 10%;
+}
+
+.search-form {
+    float: left;
+    width: 73%;
+    margin: auto 1%;
+}
+
+.search-login {
+    float: left;
+    width: 15%;
+}
+
+.small-img {
+    height: 40px;
+}
+
+.search-login a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-align: center;
+    vertical-align: 60%;
+}
+
+#search-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    background: rgb(31, 82, 111);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 10px;
+    height: 38px;
+    width: 93%;
+}
+
+#search-form button {
+    height: 42px;
+    font-size: 1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
+    background: rgb(31, 82, 111);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#sign-up {
+    clear: both;
+    margin: 0 auto;
+    width: 40%;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+}
+
+#npm-orgs {
+    color: white;
+    background-color: rgb(39, 53, 71);
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 75%;
+}
+
+#npm-orgs img {
+    float:left;
+    margin-right: 5%;
+    height: 300px;
+}
+
+#collaboration-text {
+    position: absolute;
+    width: 50%;
+}
+
+#collaboration-text a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#collaboration-text li {
+    line-height: 200%;
+}
+
+#npm-install {
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-image: url("images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#install-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+}
+
+#npm-registry {
+    color: rgb(135, 145, 156);
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#npm-registry h3, h4 {
+    color: rgb(83, 88, 98);
+}
+
+#npm-registry a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+
+#registry-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.registry-service {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+.middle {
+    margin: auto 5%;
+}
+
+.round-border-button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px 14px 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.orange {
+    border: 1px solid rgb(240, 146, 51);
+    background: rgb(240, 146, 51);
+}
+
+.red {
+    border: 1px solid rgb(203, 56, 55);
+    background: rgb(203, 56, 55);
+}
+
+.dark-blue {
+    border: 1px solid rgb(49, 68, 88);
+    background: rgb(49, 68, 88);
+}
+
+.clearfix {
+    clear: both;
+}
